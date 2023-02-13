@@ -1,0 +1,9 @@
+/* the structure of CSS*/
+/* CSS rule*/
+selector { /* element (p, ul, ...), class name (.active), ID (#work)*/ /* 
+    property: value; /* statement: property: value;/*/
+    y: z;
+}
+h1 {
+    color: pink;
+}
