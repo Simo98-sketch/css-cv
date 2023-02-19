@@ -1,9 +1,32 @@
-/* the structure of CSS*/
-/* CSS rule*/
-selector { /* element (p, ul, ...), class name (.active), ID (#work)*/ /* 
-    property: value; /* statement: property: value;/*/
-    y: z;
+/* SELECTORS */
+/* the least specific selector */
+.title {
+    color: red;
+}
+body {
+    /* colors */
+    background-color: rgb(red, green, blue);
+    /* typography */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+    /* font shorthand that applies the same property */
+    
+    color: rgb(28, 28, 28);
+
+
+    font:400 14px/1.35 Arial, Helvetica, sans-serif
+
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display SC', serif;
+    
 }
 h1 {
-    color: pink;
+    color: purple;
+}
+/* the least specific selector */
+#title{
+    color: blue;
 }
